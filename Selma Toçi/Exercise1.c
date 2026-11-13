@@ -9,5 +9,16 @@ Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 #include <stdio.h>
 
 int main(){
+    int nr1,nr2,nr3;
+
+    printf("shkruani tre numrat:\n",nr1,nr2,nr3);
+    scanf("%d\n",&nr1,nr2,nr3);    
+    if(nr1>=0){
+        printf("numri %d eshte me i madh\n");
+     
+    }
+    if
+
+    }
     
 }
