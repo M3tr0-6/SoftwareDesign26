@@ -10,4 +10,19 @@ Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 
 int main(){
     
+    int nr1, nr2, nr3;
+
+    printf("Vendosni Numrin e Pare:");
+    scanf("%d",&nr1);
+
+    printf("Vendosni Numrin e Dyte:");
+    scanf("%d",&nr2);
+
+    printf("Vendosni Numrin e Tret:");
+    scanf("%d",&nr3);
+
+    if (nr1>nr2 && nr1>3);
+    
+
+    return 0;
 }
