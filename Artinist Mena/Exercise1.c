@@ -9,6 +9,5 @@ Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 #include <stdio.h>
 
 int main(){
-// Marrja e tre numrave te plote
-return 0    
+    
 }
