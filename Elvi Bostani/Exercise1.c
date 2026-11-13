@@ -19,7 +19,7 @@ int main(){
     scanf("%d",&numri2);
 
     printf("Vendos numrin e trete:");
-    scanf("%d",numri3);
+    scanf("%d",&numri3);
 
     if (numri1>numri2 && numri1>numri3){
     puts("Numri i pare esht me i madhi");
