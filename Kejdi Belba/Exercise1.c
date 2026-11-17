@@ -6,23 +6,28 @@ Input: 4 9 2 -> Output : Numri 2 eshte me i madhi.
 Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 */
 
-#include <stdio.h>
+  int numri1,numri2,numri3;
 
-int main(){
-    
-    int nr1, nr2, nr3;
+    printf("Vendos numrin e pare:");
+    scanf("%d",&numri1);
 
-    printf("Vendosni Numrin e Pare:");
-    scanf("%d",&nr1);
+    printf("Vendos numrin e dyte:");
+    scanf("%d",&numri2);
 
-    printf("Vendosni Numrin e Dyte:");
-    scanf("%d",&nr2);
+    printf("Vendos numrin e trete:");
+    scanf("%d",&numri3);
 
-    printf("Vendosni Numrin e Tret:");
-    scanf("%d",&nr3);
-
-    if (nr1>nr2 && nr1>3);
-    
+    if (numri1>numri2 && numri1>numri3){
+    puts("Numri i pare esht me i madhi!");
+    }
+    else if (numri2>numri1 && numri2>numri3){
+        puts("Numri i dyte eshte me i madhi!");
+    }
+    else{
+        puts("Numri i trete eshte me i madhi!");
+    }
 
     return 0;
+
+    
 }
