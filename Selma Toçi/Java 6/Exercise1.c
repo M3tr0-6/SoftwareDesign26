@@ -17,7 +17,7 @@ int main(){
         printf("numri %d eshte me i madh\n");
      
     }else{
-        printf("n")
+        printf("n") //Koment: Enes Stastoli; kujdes, cfare mungon ketu?
     
 
     }
