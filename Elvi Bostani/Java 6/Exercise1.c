@@ -21,14 +21,16 @@ int main(){
     printf("Vendos numrin e trete:");
     scanf("%d",&numri3);
 
-    if (numri1>numri2 && numri1>numri3){
-    puts("Numri i pare esht me i madhi");
-    }
-    else if (numri2>numri1 && numri2>numri3){
-        puts("Numri i dyte eshte me i madhi");
-    }
-    else{
-        puts("Numri i trete eshte me i madhi");
+    if (numri1>numri2){
+        if (numri1>numri3){
+        printf("Numri i pare eshte me i madhi");
+        }else{
+            printf("nr 3 eshte me i madhi");
+        }
+    }else if (numri2>numri3){
+        printf("Numri i dyte eshte me i madhi");
+    }else{
+        printf("Numri i trete eshte me i madhi");
     }
 
     return 0;
