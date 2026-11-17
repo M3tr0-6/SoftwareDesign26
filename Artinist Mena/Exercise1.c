@@ -9,13 +9,13 @@ Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 #include <stdio.h>
 
 int main(){
-    int a, b, c;
+    int numri1,numri2,numri3;
 
-    scanf("%d %d %d", &a, &b, &c);
+    scanf("%d %d %d", &numri1, &numri2, &numri3);
 
-    if (a >= b && a >= c) {
+    if (numri1 >= numri2 && numri1 >= numri3) {
         printf("Numri 1 eshte me i madhi.\n");
-    } else if (b >= a && b >= c) {
+    } else if (numri2 >= numri1 && numri2 >= numri3) {
         printf("Numri 2 eshte me i madhi.\n");
     } else {
         printf("Numri 3 eshte me i madhi.\n");
