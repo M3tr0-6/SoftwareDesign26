@@ -14,6 +14,13 @@ int main() {
     //ndihme: nese 'a' eshte me e madhe se 'b', 'a' i asenjohet variablit 'max', ne te kundert i asenjohet 'b'-ja
 
     //Printojeni kete vlere ne terminal
+
+    int a=5;
+    int b=6;
+
+    int metemadhe=(a>b)?a:b;
+
+    printf("Vlera me e madhe eshte %d",metemadhe);
     
     return 0;
 }

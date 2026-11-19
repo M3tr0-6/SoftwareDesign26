@@ -15,6 +15,20 @@ int main() {
     
 
     //Printoni rezultatin ne terminal
+    int numri1;
+    int numri2;
+
+    printf("Vendos numrin e pare:");
+    scanf("%d",&numri1);
+
+    printf("Vendos numrin e dyte:");
+    scanf("%d,&numri2");
+
+    int nrmeivogel=(numri1<numri2)?numri1:numri2;
+
+    printf("Numri me i vogel eshte %d",nrmeivogel);
+
     
+
     return 0;
 }
