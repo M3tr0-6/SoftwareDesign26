@@ -11,15 +11,26 @@ Input: 7 3 5 -> Output : Numri 1 eshte me i madhi.
 int main(){
     int nr1,nr2,nr3;
 
-    printf("shkruani tre numrat:\n");
-    scanf("%d\n",&nr1,&nr2,&nr3);    
-    if(nr1,nr2,nr3>=0){
-        printf("numri %d eshte me i madh\n");
-     
-    }else{
-        printf("n") //Koment: Enes Stastoli; kujdes, cfare mungon ketu?
+    printf("shkruani nje numer:\n");
+    scanf("%d",&nr1);    
     
+    printf("shkruani nje numer tjeter:\n");
+    scanf("%d",nr2);
 
+    printf("shkruani nje numer tjeter:\n");
+    scanf("%d",nr3);
+    
+    if(nr1>nr2){
+        if(nr1>nr3){
+            printf("numri 1 eshte i madh\n");
+        }else{
+            printf("numri 3 eshte i madh\n");
+        }
+    }else if(nr2>nr3)
+        printf("numri 2 eshte me i madhi\n");
+    }else{
+        printf("numri 3 eshte me i madhi\n");
     }
     
+   return 0;
 }

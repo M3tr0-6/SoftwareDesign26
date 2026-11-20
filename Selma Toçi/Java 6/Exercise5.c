@@ -7,9 +7,10 @@
 
 int main(){
     //Deklaroni nje variabel ne te cilen do te ruani numrin e muajit ne te cilin jemi
-
+    int muaj;
     //Merrni ne input vleren
-
+      printf("shkruani muajin ne te cilin jemi");
+      scanf("%d",&muaj);
     //Perdorni 'switch-case' per te shfaqur ne terminal nese muaji i dhene ka 30, 31 apo 28 dite.
 
 
