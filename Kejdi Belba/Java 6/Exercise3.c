@@ -18,3 +18,29 @@ int main() {
     
     return 0;
 }
+
+#include <stdio.h>
+
+int main(){
+
+    int numri1;
+    int numri2;
+
+    printf("Vendos shifren e pare");
+    scanf("%d",&numri1);
+
+    printf("Vendos shifren e dyte");
+    scanf("%d",&numri2);
+
+    int vlerameevogel (numri1>numri2) ? numri1:numri2
+
+    printf("Numri me i vogel eshte %d",vlerameevogel);
+
+    return 0;
+
+
+
+
+
+
+}

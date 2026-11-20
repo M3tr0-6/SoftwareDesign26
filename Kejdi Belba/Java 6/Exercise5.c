@@ -17,3 +17,35 @@ int main(){
 
     return 0;
 }
+
+#include <stdio.h>
+
+int main(){
+
+int muaji;
+
+printf("Vendosni Muajin:");
+scanf("%d",&muaji);
+
+switch (muaji){
+
+    case 1: case 2: case 3: case 4: case 5:
+    printf("Muaji ka 31 dite");break;
+    
+     case 6: case 7: case 8: case 9: case 10: case 11:
+    printf("Muaji ka 30 dite");break;
+    
+      case 12:
+     printf("Muaji ka 28 dite");break;
+      
+      
+      
+      deafult:
+      	printf("Muaji i pavlefshem");
+      	
+      }
+      
+      return 0;
+
+
+}
