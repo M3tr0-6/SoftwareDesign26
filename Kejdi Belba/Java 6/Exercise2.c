@@ -17,3 +17,17 @@ int main() {
     
     return 0;
 }
+
+#include <stdio.h>
+
+int main(){
+
+    int a=7;
+    int b=9;
+
+    int vlerameemadhe= (a>b) ? a:b;
+    printf("Vlera me e madhe %d",vlerameemadhe);
+
+    return 0;
+
+}
