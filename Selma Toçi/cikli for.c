@@ -5,7 +5,7 @@ int main(){
     int a;
     printf("jepni vlere i:");
     scanf("%d",&i);
-
+    i=1
     for(;i<=10;i++){
       
     printf("jepni nje vlere a:");
